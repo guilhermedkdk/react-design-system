@@ -1,8 +1,9 @@
 .tokens-grid {
   width: 100%;
+  border-collapse: collapse;
+
   font-family: sans-serif;
   color: #fff;
-  border-collapse: collapse;
 }
 
 .tokens-grid thead th {
