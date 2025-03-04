@@ -9,10 +9,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
-    "@ignite-ui/tokens": "*",
+    "@gdk-ignite-ui/tokens": "*",
+    "@gdk-ignite-ui/ts-config": "*",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   }

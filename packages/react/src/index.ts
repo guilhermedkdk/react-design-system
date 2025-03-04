@@ -1,1 +1,3 @@
-import { colors } from "@ignite-ui/tokens";
+import { colors } from "@gdk-ignite-ui/tokens";
+
+console.log(colors);

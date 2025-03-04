@@ -11,9 +11,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
+    "@gdk-ignite-ui/ts-config": "*",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
   }
