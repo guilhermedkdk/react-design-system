@@ -1,0 +1,8 @@
+{
+  "extends": "@gdk-ignite-ui/ts-config/react.json",
+  "include": ["src"],
+
+  "compilerOptions": {
+    "lib": ["es2017", "dom"]
+  }
+}
