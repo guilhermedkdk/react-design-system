@@ -12,6 +12,7 @@
     "@gdk-ignite-ui/react": "*",
     "@gdk-ignite-ui/tokens": "*",
     "@gdk-ignite-ui/ts-config": "*",
+    "@storybook/addon-a11y": "^8.6.4",
     "polished": "^4.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
