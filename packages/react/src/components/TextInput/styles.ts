@@ -1,52 +1,66 @@
-import { styled } from '../../styles'
+import { styled } from "../../styles";
 
-export const TextInputContainer = styled('div', {
-  display: 'flex',
-  alignItems: 'baseline',
-  boxSizing: 'border-box',
-  
-  padding: '$3 $4',
-  border: '2px solid $gray900',
-  borderRadius: '$sm',
+export const TextInputContainer = styled("div", {
+  display: "flex",
+  alignItems: "center",
+  boxSizing: "border-box",
 
-  backgroundColor: '$gray900',
+  border: "2px solid $gray900",
+  borderRadius: "$sm",
 
-  '&:has(input:focus)': {
-    borderColor: '$ignite300',
+  backgroundColor: "$gray900",
+
+  variants: {
+    size: {
+      sm: {
+        padding: "$2 $3",
+      },
+      md: {
+        padding: "$3 $4",
+      },
+    },
   },
 
-  '&:has(input:disabled)': {
+  "&:has(input:focus)": {
+    borderColor: "$ignite300",
+  },
+
+  "&:has(input:disabled)": {
     opacity: 0.5,
-    cursor: 'not-allowed',
+    cursor: "not-allowed",
   },
-})
 
-export const Prefix = styled('span', {
-  fontFamily: '$default',
-  fontSize: '$sm',
-  fontWeight: 'regular',
-  color: '$gray400',
-})
+  defaultVariants: {
+    size: "md",
+  },
+});
 
-export const Input = styled('input', {
-  fontFamily: '$default',
-  fontSize: '$sm',
-  fontWeight: 'regular',
-  color: '$white',
+export const Prefix = styled("span", {
+  fontFamily: "$default",
+  fontSize: "$sm",
+  fontWeight: "regular",
+  color: "$gray400",
+});
 
-  width: '100%',
+export const Input = styled("input", {
+  fontFamily: "$default",
+  fontSize: "$sm",
+  fontWeight: "regular",
+  color: "$white",
+
+  width: "100%",
   border: 0,
-  background: 'transparent',
+  background: "transparent",
 
-  '&:focus': {
+  "&:focus": {
     outline: 0,
   },
 
-  '&:disabled': {
-    cursor: 'not-allowed',
+  "&:disabled": {
+    cursor: "not-allowed",
   },
 
-  '&:placeholder': {
-    color: '$gray400',
+  "&::placeholder": {
+    color: "$gray400",
   },
-})
+});
