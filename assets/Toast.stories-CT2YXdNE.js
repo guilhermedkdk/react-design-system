@@ -1,0 +1,5 @@
+import{j as s}from"./index-D3OlYgS9.js";import{c as l,d as T,e as f,f as x}from"./index-Cc8FR_4j.js";import{r as a}from"./index-DbaA8R3S.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-BOKuxaB8.js";const g=u=>{const[r,o]=a.useState(!1);return a.useEffect(()=>{r&&setTimeout(()=>o(!1),3e3)},[r]),s.jsxs(l,{children:[s.jsx(T,{onClick:()=>o(!0),children:"Show Toast"}),s.jsx(f,{open:r,onOpenChange:o,...u}),s.jsx(x,{})]})},S={title:"Data Display/Toast",component:g,args:{title:"Toast Title",description:"Toast description"}},t={},e={args:{description:""}};var i,n,c;t.parameters={...t.parameters,docs:{...(i=t.parameters)==null?void 0:i.docs,source:{originalSource:"{}",...(c=(n=t.parameters)==null?void 0:n.docs)==null?void 0:c.source}}};var p,m,d;e.parameters={...e.parameters,docs:{...(p=e.parameters)==null?void 0:p.docs,source:{originalSource:`{
+  args: {
+    description: ""
+  }
+}`,...(d=(m=e.parameters)==null?void 0:m.docs)==null?void 0:d.source}}};const y=["Primary","WithoutDescription"];export{t as Primary,e as WithoutDescription,y as __namedExportsOrder,S as default};
